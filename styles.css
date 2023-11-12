@@ -43,7 +43,7 @@ body {
 }
 
 .nav-list-item:nth-child(2)::after {
-    background-image: url("/chevron-down.png");
+    background-image: url("./chevron-down.png");
     content: "";
     width: 18px;
     height: 18px;
@@ -574,9 +574,7 @@ text-align: left;
 }
 
 .join-wrap {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+
 }
 
 .join-title {
@@ -587,6 +585,7 @@ text-align: left;
     letter-spacing: 0em;
     text-align: center;
     color: var(--main-text-color);
+    margin-bottom: 25px;    
 
 }
 .join-desc {
@@ -598,6 +597,8 @@ text-align: left;
     letter-spacing: 0em;
     text-align: center;
     color: var(--nav-list-item-link-color);
+    margin: 0 auto;
+    margin-bottom: 100px;
 
     max-width: 427px;
 }
@@ -618,6 +619,7 @@ text-align: left;
 
     padding-left: 18px;
     padding-right: 11px;
+    margin: 0 auto;
 
     margin-bottom: 110px;
 }
