@@ -19,14 +19,12 @@ body {
     --footer-border-top-color: #FFFFFF26;
 }
 
-.nav {
+.nav-wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-around;
 
-    margin-top: 26px;
-    margin-bottom: 104px;
 }
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -51,6 +49,7 @@ body {
     margin-left: 5px;
 }
 
+
 .user-nav-list {
     display: flex;
     list-style: none;
@@ -74,13 +73,17 @@ text-align: left;
 }
 
 .hero-section {
-    height: 626px;
     background-image: url("./images/Illustration.png");
-    background-size: 580px;
     background-repeat: no-repeat;
     background-position: right;
-    padding: 104px;
+    padding-top: 104px;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1224px;
+}
+
 
 
 .hero-title {
@@ -365,8 +368,7 @@ text-align: left;
     background-image: url("./images/Rectangle\ 308.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 253px;
-    width: 1224;
+    padding-bottom: 55px;
     
     padding-top: 55px;
 }
