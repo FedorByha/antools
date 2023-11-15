@@ -22,7 +22,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 }
 
 .nav-list {
@@ -118,10 +118,10 @@ text-align: left;
 }
 
 .hero-form::before {
-    background-image: url("/images/search.png");
+    background-image: url("./images/search.png");
     content: "";
     width: 24px;
-    height: 24px;
+    height: 24px;   
 }
 
 .hero-desc {
@@ -231,17 +231,18 @@ color: white;
 
 
 .tools-list {
-    padding: 0 108px;
     margin-top: 90px;
     margin-bottom: 100px;
 
-    gap: 25px;
+    row-gap: 25px;
+    column-gap: 100px;
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
+
+
 
 .tools-list-item:nth-child(2) {
     background-image: url("./images/Rectangle\ 5\ \(1\).png");
@@ -250,9 +251,7 @@ color: white;
 
 .tools-list-item {
     padding: 33px;
-    width: 392px;
-    height: 294px;
-    padding: 33px;
+    max-width: 392px;
 }
 
 .tools-list-item-title {
@@ -353,6 +352,8 @@ text-align: left;
     padding: 17px 38px;
     border-radius: 8px;
     background-color: var(--main-bc-color);
+
+    margin: 0 auto;
 
 
     font-family: Poppins;
