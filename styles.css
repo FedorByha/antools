@@ -19,6 +19,10 @@ body {
     --footer-border-top-color: #FFFFFF26;
 }
 
+.header {
+    padding-top: 30px;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-around;
@@ -34,6 +38,23 @@ body {
 
 .nav-list-item-link {
     font-size: 16px;
+}
+
+.nav-antools-link {
+    color: var(--main-text-color);
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+}
+
+.nav-img-container {
+    display: flex;
+    gap: 21px;
+    align-items: center;
 }
 
 .nav-list-item {
@@ -192,7 +213,9 @@ text-align: left;
 
 .tools-section {
     padding-top: 200px;
+    padding-bottom: 200px;
 }
+
 .tools-title {
     font-family: Poppins;
 font-size: 48px;
@@ -234,12 +257,12 @@ color: white;
     margin-top: 90px;
     margin-bottom: 100px;
 
-    row-gap: 25px;
-    column-gap: 100px;
+
+    column-gap:24px;
     list-style: none;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 100px;
 }
 
 
@@ -353,7 +376,6 @@ text-align: left;
     border-radius: 8px;
     background-color: var(--main-bc-color);
 
-    margin: 0 auto;
 
 
     font-family: Poppins;
@@ -363,6 +385,11 @@ text-align: left;
     letter-spacing: 0em;
     text-align: left;
     color: var(--ascent-color);
+}
+
+.tools-btn-wrap {
+    display: flex;
+    justify-content: center;
 }
 
 .trusted-brands-section {
@@ -530,46 +557,82 @@ text-align: left;
 }
 
 
-.testimonial-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testimonial-section {
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
 
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 57px;
 }
 
-.testimonial-text {
-    font-family: Roboto;
+.team-desc {
+    color: var(--newcomer-desc);
+    max-width: 393px;
+
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.015em;
     text-align: left;
-    color: var(--tools-list-item-desc-color);
 
-    max-width: 393px;
+    margin-top: 50px;
+    margin-left: 50px;
+
 }
 
-.slides-list {
-    padding-top: 100px;
-    padding-bottom: 250px;
+
+
+
+.text-wrapper {
+    background-image: url("./“.png");
+    background-repeat: no-repeat;
+}
+
+.team-list {
     display: flex;
     gap: 18px;
     justify-content: center;
+    margin-top: 100px;
+    align-items: center;
 }
 
-.slide {
-    background-color: var(--hero-form-input-bc-color);
+.team-list-span {
+    border-bottom: 6px solid var(--hero-form-input-bc-color);
     width: 44px;
-    height:6px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.team-list-span-accent {
+    border-bottom: 8px solid var(--ascent-color);
+    width: 44px;
+    display: inline-block;
     border-radius: 4px;
 }
 
-.accent-slide {
-    background-color: var(--ascent-color);
-    height: 8px;
-    width: 44px;
-    border-radius: 4px;
+.team-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-chevron-left {
+    background-image: url("./chevron-left.png");
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-color: transparent;
+}
+
+.team-chevron-right {
+    background-image: url("./chevron-right.png");
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-color: transparent;
 }
 
 .join-section {
